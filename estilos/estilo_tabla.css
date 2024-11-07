@@ -3,26 +3,26 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9; /* Fondo gris claro */
+    background-color: #f9f9f9;
     color: #333;
 }
 
 /* Encabezado */
 header {
-    background: linear-gradient(45deg, #2a3b8f, #1e2d5e); /* Degradado atractivo */
+    background: linear-gradient(45deg, #2a3b8f, #1e2d5e);
     color: #fff;
     text-align: center;
     padding: 60px 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-header .header-content h1 {
+header h1 {
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 10px;
 }
 
-header .header-content p {
+header p {
     font-size: 18px;
     font-weight: 300;
     color: #d1d1d1;
@@ -30,7 +30,7 @@ header .header-content p {
 
 /* Navegación */
 nav {
-    background-color: #1e2d5e; /* Azul oscuro */
+    background-color: #1e2d5e;
     padding: 15px 0;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
@@ -48,12 +48,12 @@ nav ul li {
 }
 
 nav a {
-    color: #ffffff;
+    color: #fff;
     text-decoration: none;
     font-size: 18px;
     font-weight: 500;
     text-transform: uppercase;
-    transition: color 0.3s ease, transform 0.3s ease;
+    transition: color 0.3s, transform 0.3s;
 }
 
 nav a:hover {
@@ -105,50 +105,33 @@ table {
 }
 
 thead {
-    background-color: #3a6ea5; /* Azul oscuro */
-    color: #ffffff;
+    background-color: #3a6ea5;
+    color: #fff;
 }
 
-th,
-td {
+th, td {
     border: 1px solid #ddd;
     padding: 14px;
+    text-align: center;
 }
 
 tr:nth-child(even) {
-    background-color: #f3f8ff; /* Azul claro */
+    background-color: #f3f8ff;
 }
 
 tr:hover {
-    background-color: #e3efff; /* Azul ligeramente más claro */
+    background-color: #e3efff;
 }
 
 /* Pie de página */
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #2a3b8f; /* Azul oscuro */
+    background-color: #2a3b8f;
     color: #fff;
     font-size: 14px;
-    position: relative;
-    bottom: 0;
     width: 100%;
     box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
-}
-
-/* Estilos adicionales para mejorar la visibilidad */
-footer p {
-    margin: 0;
-}
-
-/* Efectos y transiciones */
-a, h1, h2, footer p {
-    transition: all 0.3s ease;
-}
-
-table th,
-table td {
-    text-align: center;
 }
 
 /* Responsive design */
@@ -158,8 +141,7 @@ table td {
         padding: 20px 0;
     }
 
-    table th,
-    table td {
+    table th, table td {
         padding: 10px;
     }
 
@@ -173,7 +155,6 @@ table td {
 
     .table-container {
         width: 90%;
-        margin: 0 auto;
     }
 }
 
