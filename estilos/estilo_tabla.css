@@ -1,0 +1,181 @@
+/* Estilo general */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Fondo gris claro */
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background: linear-gradient(45deg, #2a3b8f, #1e2d5e); /* Degradado atractivo */
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+header .header-content h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+header .header-content p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #d1d1d1;
+}
+
+/* Navegación */
+nav {
+    background-color: #1e2d5e; /* Azul oscuro */
+    padding: 15px 0;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 25px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+nav a:hover {
+    color: #d1d1f0;
+    transform: translateY(-3px);
+}
+
+/* Contenido principal */
+main {
+    padding: 40px;
+    background-color: #fff;
+    margin: 30px auto;
+    max-width: 1200px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Secciones */
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    color: #2a3b8f;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+section p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+/* Contenedor de la tabla */
+.table-container {
+    margin: 0 auto;
+    max-width: 100%;
+    overflow-x: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo de la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+    text-align: left;
+}
+
+thead {
+    background-color: #3a6ea5; /* Azul oscuro */
+    color: #ffffff;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 14px;
+}
+
+tr:nth-child(even) {
+    background-color: #f3f8ff; /* Azul claro */
+}
+
+tr:hover {
+    background-color: #e3efff; /* Azul ligeramente más claro */
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2a3b8f; /* Azul oscuro */
+    color: #fff;
+    font-size: 14px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos adicionales para mejorar la visibilidad */
+footer p {
+    margin: 0;
+}
+
+/* Efectos y transiciones */
+a, h1, h2, footer p {
+    transition: all 0.3s ease;
+}
+
+table th,
+table td {
+    text-align: center;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    header {
+        font-size: 24px;
+        padding: 20px 0;
+    }
+
+    table th,
+    table td {
+        padding: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .table-container {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+
+
