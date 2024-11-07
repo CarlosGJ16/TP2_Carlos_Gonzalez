@@ -119,10 +119,6 @@ tr:nth-child(even) {
     background-color: #f3f8ff;
 }
 
-tr:hover {
-    background-color: #e3efff;
-}
-
 /* Pie de página */
 footer {
     text-align: center;
